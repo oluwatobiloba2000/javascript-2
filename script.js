@@ -30,14 +30,7 @@ console.log("******************************************");
 console.log("******************************************");
 console.log("FUNCTION THAT TAKES IN NAME AND SCORE");
 //FUNCTION THAT TAKES IN NAME AND SCORE
-let player = (name , score)=>{
-   if(typeof(name) === 'string' && typeof(score) === 'number'){
-       return `Hello , ${name} ,your score is ${score}`;
-   }else{
-       return `please input your name and score`;
-   }
-
-};
+let player = (name , score)=>{ return `Hello , ${name} ,your score is ${score}`};
 console.log(player('tobi' , 200));
 // console.log(player);
 console.log("********************************************");
