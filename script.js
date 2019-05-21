@@ -21,8 +21,7 @@ console.log("********************************");
 console.log("******************************************");
 console.log("FUNCTION THAT ACCEPTS AN OBJECT AS A PARAMETER");
 let details = ()=>{
-        return `your name is ${personalDetails.firstName} ${personalDetails.lastName} ,
-                you are a ${personalDetails.gender} , your age is ${personalDetails.age} and your current salary is $${personalDetails.salary}`;
+        return `your name is ${personalDetails.firstName} ${personalDetails.lastName} , you are a ${personalDetails.gender} , your age is ${personalDetails.age} and your current salary is $${personalDetails.salary}`;
 };
 console.log(details());
 console.log(personalDetails);
