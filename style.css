@@ -6,7 +6,7 @@ body{
 
 .container{
     display: flex;
-    height: 80vh;
+    height: 100%;
     margin-top: 2%;
     padding: 2%;
     flex-direction:  column;
@@ -30,7 +30,7 @@ body{
 
 @media all and (max-width: 980px){
     .container{
-       height: 120vh;
+       height: 100%;
     }
     .code{
         width: 50%;
